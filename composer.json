@@ -1,0 +1,19 @@
+{
+    "name": "yarco/taichi",
+    "description": "role based access control",
+    "authors": [
+        {
+            "name": "Yarco",
+            "email": "yarco.wang@gmail.com"
+        }
+    ],
+    "require": {},
+		"require-dev": {
+			"phpunit/phpunit": "~4.0"
+		},
+		"autoload": {
+			"psr-4": {
+				"Yarco\\Taichi\\" : "src/"
+			}
+		}
+}
